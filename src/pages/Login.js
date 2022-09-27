@@ -89,7 +89,7 @@ function Login() {
               className="btn btn-block btn-primary"
               onSubmit={onSubmit}
             >
-              {isLoading ? "...loading" : "Loading"}
+              {isLoading ? "...loading" : "Login"}
             </button>
           </div>
         </form>

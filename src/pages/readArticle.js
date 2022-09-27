@@ -25,9 +25,6 @@ const ReadArticle = () => {
     if (isError) {
       console.log(message);
     }
-    if (!user) {
-      navigate("/login");
-    }
 
     dispatch(getMyArticles());
 

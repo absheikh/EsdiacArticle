@@ -109,7 +109,7 @@ function Register() {
           </div>
           <div className="form-group">
             <button type="submit" className="btn btn-block btn-primary">
-              {isLoading ? "...loading" : "Submit"}
+              {isLoading ? "...loading" : "Register"}
             </button>
           </div>
         </form>
