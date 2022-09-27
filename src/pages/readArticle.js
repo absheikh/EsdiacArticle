@@ -105,7 +105,7 @@ const ReadArticle = () => {
           ) : (
             ""
           )}
-          <Link to="/dashboard" className="btn btn-light mt-4">
+          <Link to="/" className="btn btn-light mt-4">
             Back
           </Link>
         </Col>
